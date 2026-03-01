@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Norsk sanntidslytting – Møtetreningapp</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Norsk sanntidslytting</h1>
+  <p>Tren opp prosesseringshastigheten din – som i ekte møter</p>
+</header>
+
+<main>
+
+  <!-- SELECT SCREEN -->
+  <div id="select-screen">
+    <div class="section-label">Velg hastighet</div>
+    <div id="speed-selector"></div>
+
+    <div class="section-label">Velg en øvelse</div>
+    <div id="exercise-list"></div>
+  </div>
+
+  <!-- LISTENING SCREEN -->
+  <div id="listening-screen" class="screen hidden">
+    <h2 id="listening-title"></h2>
+    <p class="scenario-text" id="listening-scenario"></p>
+
+    <div id="no-replay-warning" class="hidden">
+      <strong>Som i et ekte møte:</strong>
+      <ul class="rule-list">
+        <li>Ingen pause-knapp</li>
+        <li>Ingen replay</li>
+        <li>Ingen undertekster</li>
+      </ul>
+    </div>
+
+    <div id="tts-fallback" class="hidden">
+      Nettleseren din støtter ikke norsk tale. Prøv Chrome eller Edge.
+      Du kan lese dialogteksten i stedet og øve på spørsmålene.
+      <br /><button class="secondary" style="margin-top:0.75rem" id="read-anyway-btn"
+        onclick="document.getElementById('proceed-btn').classList.remove('hidden')">
+        Gå til spørsmål likevel
+      </button>
+    </div>
+
+    <div class="btn-row">
+      <button class="primary" id="play-btn">▶ Spill av</button>
+      <button class="primary hidden" id="proceed-btn">Gå til spørsmål →</button>
+    </div>
+  </div>
+
+  <!-- QUESTIONS SCREEN -->
+  <div id="questions-screen" class="screen hidden">
+    <h2 id="q-title" style="margin-bottom:1.5rem"></h2>
+    <div id="questions-container"></div>
+    <div class="btn-row">
+      <button class="primary" id="submit-answers-btn">Sjekk svarene</button>
+      <button class="primary hidden" id="view-result-btn">Se resultat →</button>
+    </div>
+  </div>
+
+  <!-- RESULT SCREEN -->
+  <div id="result-screen" class="screen hidden">
+    <div class="result-hero">
+      <div class="result-score-big" id="result-score"></div>
+      <div class="result-pct" id="result-pct"></div>
+    </div>
+
+    <div class="feedback" id="result-feedback"></div>
+
+    <p class="session-total" id="session-score"></p>
+    <p id="next-tip" class="hidden"></p>
+
+    <div class="btn-row">
+      <button class="primary" id="next-level-btn">Prøv neste nivå →</button>
+      <button class="secondary" id="another-btn">Velg annen øvelse</button>
+      <button class="secondary" id="back-btn">Tilbake</button>
+    </div>
+  </div>
+
+</main>
+
+<script src="exercises.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
