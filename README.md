@@ -77,4 +77,5 @@ project.yml          — описание Xcode-проекта для XcodeGen
 Shared/              — общие для приложения и виджета модель и карточки
 NorskKort/           — приложение: каталог, тренировка, озвучка
 NorskKortWidget/     — виджет WidgetKit и интерактивные кнопки (App Intents)
+scripts/make_icon.py — рисует иконку приложения (python3 scripts/make_icon.py)
 ```
