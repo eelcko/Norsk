@@ -11,3 +11,4 @@ NorskKortWidget/NorskKortWidget.entitlements
 xcuserdata/
 DerivedData/
 build/
+Config/Local.xcconfig

@@ -1,0 +1,3 @@
+// Общие настройки сборки. Свой Team ID укажите в Config/Local.xcconfig
+// (файл не попадает в git). Пример: Config/Local.xcconfig.example
+#include? "Local.xcconfig"
