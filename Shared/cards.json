@@ -1,0 +1,884 @@
+[
+  {
+    "id": "pv-gi-opp",
+    "category": "phrasalVerb",
+    "norwegian": "å gi opp",
+    "russian": "сдаваться; бросать (что-то)",
+    "example": "Ikke gi opp nå, du er nesten ferdig!",
+    "exampleTranslation": "Не сдавайся сейчас, ты почти закончил!",
+    "note": "gir – ga – har gitt"
+  },
+  {
+    "id": "pv-finne-ut",
+    "category": "phrasalVerb",
+    "norwegian": "å finne ut (av)",
+    "russian": "выяснить; разобраться (в чём-то)",
+    "example": "Jeg må finne ut hvem som ringte.",
+    "exampleTranslation": "Мне нужно выяснить, кто звонил.",
+    "note": "finner – fant – har funnet"
+  },
+  {
+    "id": "pv-sta-opp",
+    "category": "phrasalVerb",
+    "norwegian": "å stå opp",
+    "russian": "вставать (с постели)",
+    "example": "Jeg står opp klokka seks hver dag.",
+    "exampleTranslation": "Я встаю в шесть часов каждый день.",
+    "note": "står – sto – har stått"
+  },
+  {
+    "id": "pv-se-ut",
+    "category": "phrasalVerb",
+    "norwegian": "å se ut",
+    "russian": "выглядеть",
+    "example": "Du ser sliten ut i dag.",
+    "exampleTranslation": "Ты сегодня выглядишь уставшим.",
+    "note": "Частица ut стоит после прилагательного: ser trøtt ut, ser glad ut."
+  },
+  {
+    "id": "pv-komme-fram",
+    "category": "phrasalVerb",
+    "norwegian": "å komme fram",
+    "russian": "добраться, прибыть (на место)",
+    "example": "Send meg en melding når du kommer fram.",
+    "exampleTranslation": "Напиши мне, когда доберёшься.",
+    "note": "kommer – kom – har kommet"
+  },
+  {
+    "id": "pv-sla-av",
+    "category": "phrasalVerb",
+    "norwegian": "å slå av / å slå på",
+    "russian": "выключить / включить",
+    "example": "Husk å slå av lyset når du går.",
+    "exampleTranslation": "Не забудь выключить свет, когда будешь уходить.",
+    "note": "slår – slo – har slått"
+  },
+  {
+    "id": "pv-ta-vare-pa",
+    "category": "phrasalVerb",
+    "norwegian": "å ta vare på",
+    "russian": "заботиться о; беречь",
+    "example": "Ta godt vare på deg selv!",
+    "exampleTranslation": "Береги себя!",
+    "note": "tar – tok – har tatt"
+  },
+  {
+    "id": "pv-se-fram-til",
+    "category": "phrasalVerb",
+    "norwegian": "å se fram til",
+    "russian": "ждать с нетерпением",
+    "example": "Jeg ser fram til ferien.",
+    "exampleTranslation": "Я с нетерпением жду отпуска.",
+    "note": "ser – så – har sett"
+  },
+  {
+    "id": "pv-holde-pa-med",
+    "category": "phrasalVerb",
+    "norwegian": "å holde på med",
+    "russian": "заниматься чем-то (прямо сейчас)",
+    "example": "Hva holder du på med?",
+    "exampleTranslation": "Чем ты сейчас занят?",
+    "note": "holder – holdt – har holdt"
+  },
+  {
+    "id": "pv-fa-til",
+    "category": "phrasalVerb",
+    "norwegian": "å få til",
+    "russian": "суметь; получиться (у кого-то)",
+    "example": "Jeg fikk det endelig til!",
+    "exampleTranslation": "У меня наконец получилось!",
+    "note": "får – fikk – har fått"
+  },
+  {
+    "id": "pv-legge-merke-til",
+    "category": "phrasalVerb",
+    "norwegian": "å legge merke til",
+    "russian": "заметить, обратить внимание",
+    "example": "La du merke til at hun hadde klipt håret?",
+    "exampleTranslation": "Ты заметил, что она подстриглась?",
+    "note": "legger – la – har lagt"
+  },
+  {
+    "id": "pv-kjenne-igjen",
+    "category": "phrasalVerb",
+    "norwegian": "å kjenne igjen",
+    "russian": "узнать (кого-то или что-то)",
+    "example": "Jeg kjente deg nesten ikke igjen!",
+    "exampleTranslation": "Я тебя едва узнал!",
+    "note": "kjenner – kjente – har kjent"
+  },
+  {
+    "id": "pv-ga-ut",
+    "category": "phrasalVerb",
+    "norwegian": "å gå ut",
+    "russian": "выйти; сходить куда-нибудь (развлечься)",
+    "example": "Skal vi gå ut i kveld?",
+    "exampleTranslation": "Сходим куда-нибудь сегодня вечером?",
+    "note": "går – gikk – har gått"
+  },
+  {
+    "id": "pv-rydde-opp",
+    "category": "phrasalVerb",
+    "norwegian": "å rydde opp",
+    "russian": "убраться, навести порядок",
+    "example": "Kan du rydde opp på rommet ditt?",
+    "exampleTranslation": "Можешь убраться в своей комнате?",
+    "note": "rydder – ryddet – har ryddet"
+  },
+  {
+    "id": "pv-sette-pris-pa",
+    "category": "phrasalVerb",
+    "norwegian": "å sette pris på",
+    "russian": "ценить",
+    "example": "Jeg setter stor pris på hjelpen din.",
+    "exampleTranslation": "Я очень ценю твою помощь.",
+    "note": "setter – satte – har satt"
+  },
+  {
+    "id": "pv-bli-kvitt",
+    "category": "phrasalVerb",
+    "norwegian": "å bli kvitt",
+    "russian": "избавиться от",
+    "example": "Jeg klarer ikke å bli kvitt forkjølelsen.",
+    "exampleTranslation": "Никак не могу избавиться от простуды.",
+    "note": "blir – ble – har blitt"
+  },
+  {
+    "id": "pv-fylle-ut",
+    "category": "phrasalVerb",
+    "norwegian": "å fylle ut",
+    "russian": "заполнить (анкету, бланк)",
+    "example": "Du må fylle ut skjemaet før timen.",
+    "exampleTranslation": "Нужно заполнить анкету до приёма.",
+    "note": "fyller – fylte – har fylt"
+  },
+  {
+    "id": "pv-melde-seg-pa",
+    "category": "phrasalVerb",
+    "norwegian": "å melde seg på",
+    "russian": "записаться (на курс, мероприятие)",
+    "example": "Jeg har meldt meg på et norskkurs.",
+    "exampleTranslation": "Я записался на курс норвежского.",
+    "note": "melder – meldte – har meldt"
+  },
+  {
+    "id": "pv-si-opp",
+    "category": "phrasalVerb",
+    "norwegian": "å si opp",
+    "russian": "уволиться; уволить; расторгнуть (договор)",
+    "example": "Hun sa opp jobben sin i går.",
+    "exampleTranslation": "Вчера она уволилась с работы.",
+    "note": "sier – sa – har sagt"
+  },
+  {
+    "id": "pv-komme-overens",
+    "category": "phrasalVerb",
+    "norwegian": "å komme overens (med)",
+    "russian": "ладить (с кем-то)",
+    "example": "Jeg kommer godt overens med kollegaene mine.",
+    "exampleTranslation": "Я хорошо лажу с коллегами.",
+    "note": "kommer – kom – har kommet"
+  },
+  {
+    "id": "pv-ga-over",
+    "category": "phrasalVerb",
+    "norwegian": "å gå over",
+    "russian": "пройти (о боли, болезни)",
+    "example": "Hodepinen gikk over etter en time.",
+    "exampleTranslation": "Головная боль прошла через час.",
+    "note": "går – gikk – har gått"
+  },
+  {
+    "id": "pv-passe-pa",
+    "category": "phrasalVerb",
+    "norwegian": "å passe på",
+    "russian": "присматривать за; быть внимательным",
+    "example": "Kan du passe på bagen min et øyeblikk?",
+    "exampleTranslation": "Присмотришь минутку за моей сумкой?",
+    "note": "passer – passet – har passet"
+  },
+  {
+    "id": "id-ingen-ku-pa-isen",
+    "category": "idiom",
+    "norwegian": "Det er ingen ku på isen.",
+    "russian": "Всё в порядке, волноваться не о чем.",
+    "example": "Slapp av, det er ingen ku på isen – vi rekker toget.",
+    "exampleTranslation": "Расслабься, всё в порядке – мы успеваем на поезд.",
+    "note": "Букв.: «На льду нет коровы»."
+  },
+  {
+    "id": "id-rett-fra-levra",
+    "category": "idiom",
+    "norwegian": "å snakke rett fra levra",
+    "russian": "говорить прямо, без обиняков",
+    "example": "Hun snakker alltid rett fra levra.",
+    "exampleTranslation": "Она всегда говорит прямо, что думает.",
+    "note": "Букв.: «говорить прямо из печени»."
+  },
+  {
+    "id": "id-finger-med-i-spillet",
+    "category": "idiom",
+    "norwegian": "å ha en finger med i spillet",
+    "russian": "приложить к чему-то руку; быть замешанным",
+    "example": "Jeg tror sjefen hadde en finger med i spillet.",
+    "exampleTranslation": "Думаю, начальник приложил к этому руку.",
+    "note": "Букв.: «иметь палец в игре»."
+  },
+  {
+    "id": "id-pa-jordet",
+    "category": "idiom",
+    "norwegian": "å være helt på jordet",
+    "russian": "совсем ошибаться; быть совсем не в теме",
+    "example": "Svaret hans var helt på jordet.",
+    "exampleTranslation": "Его ответ был совершенно мимо.",
+    "note": "Букв.: «быть совсем в поле»."
+  },
+  {
+    "id": "id-ikke-peiling",
+    "category": "idiom",
+    "norwegian": "å ikke ha peiling",
+    "russian": "понятия не иметь",
+    "example": "Jeg har ikke peiling på biler.",
+    "exampleTranslation": "Я ничего не смыслю в машинах.",
+    "note": "Разговорное. Часто просто: «Ingen peiling!» – «Без понятия!»"
+  },
+  {
+    "id": "id-beina-pa-nakken",
+    "category": "idiom",
+    "norwegian": "å ta beina på nakken",
+    "russian": "пуститься наутёк, броситься бежать",
+    "example": "Da hunden begynte å bjeffe, tok vi beina på nakken.",
+    "exampleTranslation": "Когда собака начала лаять, мы бросились бежать.",
+    "note": "Букв.: «взять ноги на шею»."
+  },
+  {
+    "id": "id-sjuende-himmel",
+    "category": "idiom",
+    "norwegian": "å være i den sjuende himmel",
+    "russian": "быть на седьмом небе",
+    "example": "Etter forlovelsen var hun i den sjuende himmel.",
+    "exampleTranslation": "После помолвки она была на седьмом небе.",
+    "note": null
+  },
+  {
+    "id": "id-selge-skinnet",
+    "category": "idiom",
+    "norwegian": "å selge skinnet før bjørnen er skutt",
+    "russian": "делить шкуру неубитого медведя",
+    "example": "Ikke selg skinnet før bjørnen er skutt – vi har ikke fått kontrakten ennå.",
+    "exampleTranslation": "Не дели шкуру неубитого медведя – мы ещё не получили контракт.",
+    "note": "Букв.: «продавать шкуру, пока медведь не застрелен»."
+  },
+  {
+    "id": "id-hand-i-hanske",
+    "category": "idiom",
+    "norwegian": "å gå som hånd i hanske",
+    "russian": "идти как по маслу; идеально подходить",
+    "example": "Samarbeidet gikk som hånd i hanske.",
+    "exampleTranslation": "Сотрудничество шло как по маслу.",
+    "note": "Букв.: «как рука в перчатке»."
+  },
+  {
+    "id": "id-skyte-gullfuglen",
+    "category": "idiom",
+    "norwegian": "å skyte gullfuglen",
+    "russian": "сорвать куш; крупно повезти",
+    "example": "Med den nye jobben har han virkelig skutt gullfuglen.",
+    "exampleTranslation": "С новой работой ему по-настоящему повезло.",
+    "note": "Букв.: «подстрелить золотую птицу»."
+  },
+  {
+    "id": "id-koste-skjorta",
+    "category": "idiom",
+    "norwegian": "å koste skjorta",
+    "russian": "стоить целое состояние",
+    "example": "Den nye telefonen kostet skjorta.",
+    "exampleTranslation": "Новый телефон стоил целое состояние.",
+    "note": "Букв.: «стоить рубашку»."
+  },
+  {
+    "id": "id-bein-i-nesa",
+    "category": "idiom",
+    "norwegian": "å ha bein i nesa",
+    "russian": "иметь твёрдый характер, быть решительным",
+    "example": "Hun har bein i nesa og står for det hun mener.",
+    "exampleTranslation": "У неё твёрдый характер, и она отстаивает своё мнение.",
+    "note": "Букв.: «иметь кость в носу»."
+  },
+  {
+    "id": "id-legge-seg-flat",
+    "category": "idiom",
+    "norwegian": "å legge seg flat",
+    "russian": "признать вину, публично извиниться",
+    "example": "Firmaet la seg flat etter skandalen.",
+    "exampleTranslation": "После скандала фирма признала свою вину.",
+    "note": "Букв.: «лечь плашмя»."
+  },
+  {
+    "id": "id-helt-texas",
+    "category": "idiom",
+    "norwegian": "Det er helt Texas!",
+    "russian": "Полный хаос! Дурдом!",
+    "example": "Det var helt Texas på festen i går.",
+    "exampleTranslation": "Вчера на вечеринке творилось что-то невообразимое.",
+    "note": "Разговорное. Texas здесь – символ Дикого Запада."
+  },
+  {
+    "id": "id-to-fluer",
+    "category": "idiom",
+    "norwegian": "å slå to fluer i en smekk",
+    "russian": "убить двух зайцев",
+    "example": "Jeg sykler til jobben og slår to fluer i en smekk: trening og transport.",
+    "exampleTranslation": "Я езжу на работу на велосипеде и убиваю двух зайцев: и тренировка, и дорога.",
+    "note": "Букв.: «убить двух мух одним хлопком»."
+  },
+  {
+    "id": "id-kalde-fotter",
+    "category": "idiom",
+    "norwegian": "å få kalde føtter",
+    "russian": "струсить, засомневаться в последний момент",
+    "example": "Han fikk kalde føtter rett før bryllupet.",
+    "exampleTranslation": "Прямо перед свадьбой он струсил.",
+    "note": "Букв.: «получить холодные ноги»."
+  },
+  {
+    "id": "id-over-bekken",
+    "category": "idiom",
+    "norwegian": "å gå over bekken etter vann",
+    "russian": "искать далеко то, что под носом",
+    "example": "Hvorfor ansette en konsulent? Det er å gå over bekken etter vann.",
+    "exampleTranslation": "Зачем нанимать консультанта? Это искать далеко то, что под носом.",
+    "note": "Букв.: «ходить за водой через ручей»."
+  },
+  {
+    "id": "id-sitter-langt-inne",
+    "category": "idiom",
+    "norwegian": "Det sitter langt inne.",
+    "russian": "Это даётся с большим трудом (сказать, признать).",
+    "example": "Det satt langt inne å be om unnskyldning.",
+    "exampleTranslation": "Попросить прощения было очень непросто.",
+    "note": "Букв.: «Это сидит глубоко внутри»."
+  },
+  {
+    "id": "id-male-fanden",
+    "category": "idiom",
+    "norwegian": "å male fanden på veggen",
+    "russian": "сгущать краски, ждать худшего",
+    "example": "Ikke mal fanden på veggen, det går sikkert bra.",
+    "exampleTranslation": "Не нагнетай, наверняка всё будет хорошо.",
+    "note": "Букв.: «рисовать чёрта на стене»."
+  },
+  {
+    "id": "id-midt-i-smoroyet",
+    "category": "idiom",
+    "norwegian": "å være midt i smørøyet",
+    "russian": "быть в самом лучшем месте; как сыр в масле",
+    "example": "Leiligheten ligger midt i smørøyet i sentrum.",
+    "exampleTranslation": "Квартира находится в самом лучшем месте в центре.",
+    "note": "Smørøye – ямка с маслом посреди каши."
+  },
+  {
+    "id": "ph-hva-driver-du-med",
+    "category": "phrase",
+    "norwegian": "Hva driver du med?",
+    "russian": "Чем занимаешься? Что поделываешь?",
+    "example": "Hei! Hva driver du med for tida?",
+    "exampleTranslation": "Привет! Чем ты сейчас занимаешься?",
+    "note": null
+  },
+  {
+    "id": "ph-takk-for-sist",
+    "category": "phrase",
+    "norwegian": "Takk for sist!",
+    "russian": "Спасибо за прошлую встречу!",
+    "example": "Hei, Kari! Takk for sist, det var en hyggelig kveld.",
+    "exampleTranslation": "Привет, Кари! Спасибо за прошлый раз, был приятный вечер.",
+    "note": "Так принято здороваться с тем, с кем вы недавно виделись."
+  },
+  {
+    "id": "ph-ha-det-bra",
+    "category": "phrase",
+    "norwegian": "Ha det bra!",
+    "russian": "Всего хорошего! Пока!",
+    "example": "Vi ses i morgen. Ha det bra!",
+    "exampleTranslation": "Увидимся завтра. Пока!",
+    "note": "Короче и разговорнее: «Ha det!»"
+  },
+  {
+    "id": "ph-det-gar-bra",
+    "category": "phrase",
+    "norwegian": "Det går bra.",
+    "russian": "Всё хорошо. Нормально.",
+    "example": "– Hvordan går det? – Det går bra, takk.",
+    "exampleTranslation": "– Как дела? – Хорошо, спасибо.",
+    "note": null
+  },
+  {
+    "id": "ph-en-gang-til",
+    "category": "phrase",
+    "norwegian": "Kan du si det en gang til?",
+    "russian": "Можешь повторить?",
+    "example": "Unnskyld, kan du si det en gang til? Jeg hørte deg ikke.",
+    "exampleTranslation": "Извини, можешь повторить? Я тебя не расслышал.",
+    "note": null
+  },
+  {
+    "id": "ph-forstar-ikke-helt",
+    "category": "phrase",
+    "norwegian": "Jeg forstår ikke helt.",
+    "russian": "Я не совсем понимаю.",
+    "example": "Beklager, jeg forstår ikke helt hva du mener.",
+    "exampleTranslation": "Извини, я не совсем понимаю, что ты имеешь в виду.",
+    "note": null
+  },
+  {
+    "id": "ph-regningen",
+    "category": "phrase",
+    "norwegian": "Kan jeg få regningen?",
+    "russian": "Можно счёт?",
+    "example": "Unnskyld, kan jeg få regningen, takk?",
+    "exampleTranslation": "Извините, можно счёт, пожалуйста?",
+    "note": "Kan jeg få …? – универсальный вежливый способ что-то попросить."
+  },
+  {
+    "id": "ph-gjor-ingenting",
+    "category": "phrase",
+    "norwegian": "Det gjør ingenting.",
+    "russian": "Ничего страшного.",
+    "example": "– Beklager at jeg er sen. – Det gjør ingenting.",
+    "exampleTranslation": "– Извини, что опоздал. – Ничего страшного.",
+    "note": null
+  },
+  {
+    "id": "ph-lykke-til",
+    "category": "phrase",
+    "norwegian": "Lykke til!",
+    "russian": "Удачи!",
+    "example": "Lykke til på eksamen i morgen!",
+    "exampleTranslation": "Удачи завтра на экзамене!",
+    "note": null
+  },
+  {
+    "id": "ph-god-helg",
+    "category": "phrase",
+    "norwegian": "God helg!",
+    "russian": "Хороших выходных!",
+    "example": "Takk for i dag, og god helg!",
+    "exampleTranslation": "Спасибо за сегодня, и хороших выходных!",
+    "note": "Ответ: «Takk, i like måte!» – «Спасибо, и тебе того же!»"
+  },
+  {
+    "id": "ph-takk-for-maten",
+    "category": "phrase",
+    "norwegian": "Takk for maten.",
+    "russian": "Спасибо за еду.",
+    "example": "Takk for maten, det smakte nydelig!",
+    "exampleTranslation": "Спасибо за угощение, было очень вкусно!",
+    "note": "Так в Норвегии говорят после еды. Ответ: «Velbekomme!»"
+  },
+  {
+    "id": "ph-vaer-sa-god",
+    "category": "phrase",
+    "norwegian": "Vær så god.",
+    "russian": "Пожалуйста (когда что-то даёшь); прошу.",
+    "example": "Vær så god, her er kaffen din.",
+    "exampleTranslation": "Пожалуйста, вот ваш кофе.",
+    "note": "В просьбе «пожалуйста» обычно передают так: «Kan jeg få …, takk?»"
+  },
+  {
+    "id": "ph-hva-mener-du",
+    "category": "phrase",
+    "norwegian": "Hva mener du?",
+    "russian": "Что ты имеешь в виду?",
+    "example": "Hva mener du med det?",
+    "exampleTranslation": "Что ты этим хочешь сказать?",
+    "note": null
+  },
+  {
+    "id": "ph-jeg-gleder-meg",
+    "category": "phrase",
+    "norwegian": "Jeg gleder meg!",
+    "russian": "Жду не дождусь! Предвкушаю!",
+    "example": "Vi skal til Spania i morgen – jeg gleder meg!",
+    "exampleTranslation": "Завтра мы едем в Испанию – жду не дождусь!",
+    "note": "å glede seg til noe – радоваться чему-то заранее."
+  },
+  {
+    "id": "ph-ikke-noe-problem",
+    "category": "phrase",
+    "norwegian": "Ikke noe problem.",
+    "russian": "Без проблем.",
+    "example": "– Kan du hjelpe meg i morgen? – Ikke noe problem.",
+    "exampleTranslation": "– Поможешь мне завтра? – Без проблем.",
+    "note": null
+  },
+  {
+    "id": "ph-kos-deg",
+    "category": "phrase",
+    "norwegian": "Kos deg!",
+    "russian": "Хорошо тебе провести время!",
+    "example": "Kos deg på hytta i helgen!",
+    "exampleTranslation": "Хорошо тебе отдохнуть на даче в выходные!",
+    "note": "Мн. число: «Kos dere!»"
+  },
+  {
+    "id": "ex-kommer-an-pa",
+    "category": "expression",
+    "norwegian": "Det kommer an på.",
+    "russian": "Смотря как. Зависит от …",
+    "example": "– Kommer du i morgen? – Det kommer an på været.",
+    "exampleTranslation": "– Ты придёшь завтра? – Зависит от погоды.",
+    "note": null
+  },
+  {
+    "id": "ex-samme-det",
+    "category": "expression",
+    "norwegian": "Det er det samme.",
+    "russian": "Всё равно. Без разницы.",
+    "example": "– Vil du ha te eller kaffe? – Det er det samme.",
+    "exampleTranslation": "– Тебе чай или кофе? – Без разницы.",
+    "note": "Разговорный вариант: «Samma det!»"
+  },
+  {
+    "id": "ex-ikke-sa-farlig",
+    "category": "expression",
+    "norwegian": "Det er ikke så farlig.",
+    "russian": "Ничего страшного; это не так важно.",
+    "example": "Glemte du boka? Det er ikke så farlig.",
+    "exampleTranslation": "Ты забыл книгу? Ничего страшного.",
+    "note": "farlig – буквально «опасный»."
+  },
+  {
+    "id": "ex-ut-pa-dato",
+    "category": "expression",
+    "norwegian": "å gå ut på dato",
+    "russian": "истечь (о сроке годности); устареть",
+    "example": "Yoghurten har gått ut på dato.",
+    "exampleTranslation": "У йогурта истёк срок годности.",
+    "note": null
+  },
+  {
+    "id": "ex-kopp-te",
+    "category": "expression",
+    "norwegian": "Det er ikke min kopp te.",
+    "russian": "Это не моё; это не в моём вкусе.",
+    "example": "Opera er ikke min kopp te.",
+    "exampleTranslation": "Опера – это не моё.",
+    "note": null
+  },
+  {
+    "id": "ex-na-er-det-nok",
+    "category": "expression",
+    "norwegian": "Nå er det nok!",
+    "russian": "Хватит! С меня довольно!",
+    "example": "Nå er det nok! Slutt å krangle!",
+    "exampleTranslation": "Хватит! Перестаньте ссориться!",
+    "note": null
+  },
+  {
+    "id": "ex-i-det-hele-tatt",
+    "category": "expression",
+    "norwegian": "i det hele tatt",
+    "russian": "вообще; в целом",
+    "example": "Har du i det hele tatt lest boka?",
+    "exampleTranslation": "Ты вообще читал эту книгу?",
+    "note": null
+  },
+  {
+    "id": "ex-etter-hvert",
+    "category": "expression",
+    "norwegian": "etter hvert",
+    "russian": "постепенно, со временем",
+    "example": "Du blir vant til været etter hvert.",
+    "exampleTranslation": "Со временем ты привыкнешь к погоде.",
+    "note": null
+  },
+  {
+    "id": "ex-for-sa-vidt",
+    "category": "expression",
+    "norwegian": "for så vidt",
+    "russian": "в принципе; в какой-то мере",
+    "example": "Det er for så vidt en god idé, men den er dyr.",
+    "exampleTranslation": "В принципе идея хорошая, но дорогая.",
+    "note": null
+  },
+  {
+    "id": "ex-med-en-gang",
+    "category": "expression",
+    "norwegian": "med en gang",
+    "russian": "сразу, немедленно",
+    "example": "Jeg kommer med en gang!",
+    "exampleTranslation": "Сейчас приду!",
+    "note": null
+  },
+  {
+    "id": "ex-til-og-med",
+    "category": "expression",
+    "norwegian": "til og med",
+    "russian": "даже",
+    "example": "Til og med sjefen lo av vitsen.",
+    "exampleTranslation": "Даже начальник посмеялся над шуткой.",
+    "note": "Ещё значит «по … включительно»: fra mandag til og med fredag."
+  },
+  {
+    "id": "ex-i-hvert-fall",
+    "category": "expression",
+    "norwegian": "i hvert fall",
+    "russian": "по крайней мере; во всяком случае",
+    "example": "Det regner, men i hvert fall er det varmt.",
+    "exampleTranslation": "Идёт дождь, но, по крайней мере, тепло.",
+    "note": null
+  },
+  {
+    "id": "ex-pa-en-mate",
+    "category": "expression",
+    "norwegian": "på en måte",
+    "russian": "в каком-то смысле; как бы",
+    "example": "Jeg forstår ham på en måte.",
+    "exampleTranslation": "В каком-то смысле я его понимаю.",
+    "note": null
+  },
+  {
+    "id": "ex-sier-seg-selv",
+    "category": "expression",
+    "norwegian": "Det sier seg selv.",
+    "russian": "Это само собой разумеется.",
+    "example": "Det sier seg selv at vi må spare penger nå.",
+    "exampleTranslation": "Само собой разумеется, что сейчас нам нужно экономить.",
+    "note": null
+  },
+  {
+    "id": "w-koselig",
+    "category": "word",
+    "norwegian": "koselig",
+    "russian": "уютный; приятный, милый",
+    "example": "Vi hadde en koselig kveld med venner.",
+    "exampleTranslation": "Мы провели уютный вечер с друзьями.",
+    "note": "Одно из самых «норвежских» слов. Связано с kos – уют."
+  },
+  {
+    "id": "w-dugnad",
+    "category": "word",
+    "norwegian": "en dugnad",
+    "russian": "совместная добровольная работа (субботник)",
+    "example": "Lørdag er det dugnad i borettslaget.",
+    "exampleTranslation": "В субботу в жилищном кооперативе субботник.",
+    "note": "en dugnad – dugnaden – dugnader"
+  },
+  {
+    "id": "w-matpakke",
+    "category": "word",
+    "norwegian": "ei/en matpakke",
+    "russian": "бутерброды с собой (на обед)",
+    "example": "Jeg har med matpakke på jobben hver dag.",
+    "exampleTranslation": "Я каждый день беру с собой на работу бутерброды.",
+    "note": "matpakka/matpakken – matpakker"
+  },
+  {
+    "id": "w-orke",
+    "category": "word",
+    "norwegian": "å orke",
+    "russian": "быть в силах, иметь силы (что-то сделать)",
+    "example": "Jeg orker ikke å lage middag i dag.",
+    "exampleTranslation": "У меня сегодня нет сил готовить ужин.",
+    "note": "orker – orket – har orket"
+  },
+  {
+    "id": "w-lei",
+    "category": "word",
+    "norwegian": "lei (av)",
+    "russian": "уставший от; кому-то надоело",
+    "example": "Jeg er lei av regnet.",
+    "exampleTranslation": "Мне надоел дождь.",
+    "note": "Также: «Jeg er lei meg» – «Мне грустно / жаль»."
+  },
+  {
+    "id": "w-savne",
+    "category": "word",
+    "norwegian": "å savne",
+    "russian": "скучать (по кому-то); не хватать",
+    "example": "Jeg savner familien min.",
+    "exampleTranslation": "Я скучаю по своей семье.",
+    "note": "savner – savnet – har savnet"
+  },
+  {
+    "id": "w-uansett",
+    "category": "word",
+    "norwegian": "uansett",
+    "russian": "в любом случае; независимо от",
+    "example": "Uansett hva som skjer, er jeg her for deg.",
+    "exampleTranslation": "Что бы ни случилось, я рядом.",
+    "note": null
+  },
+  {
+    "id": "w-kjempe",
+    "category": "word",
+    "norwegian": "kjempe-",
+    "russian": "очень, супер- (усилительная приставка)",
+    "example": "Filmen var kjempebra!",
+    "exampleTranslation": "Фильм был супер!",
+    "note": "Пишется слитно: kjempefin, kjempestor, kjempegøy."
+  },
+  {
+    "id": "w-friluftsliv",
+    "category": "word",
+    "norwegian": "et friluftsliv",
+    "russian": "жизнь и отдых на природе",
+    "example": "Friluftsliv er en viktig del av norsk kultur.",
+    "exampleTranslation": "Отдых на природе – важная часть норвежской культуры.",
+    "note": "et friluftsliv – friluftslivet"
+  },
+  {
+    "id": "w-egentlig",
+    "category": "word",
+    "norwegian": "egentlig",
+    "russian": "вообще-то; на самом деле",
+    "example": "Egentlig vil jeg heller bli hjemme.",
+    "exampleTranslation": "Вообще-то я бы лучше остался дома.",
+    "note": null
+  },
+  {
+    "id": "w-altsa",
+    "category": "word",
+    "norwegian": "altså",
+    "russian": "то есть; значит; ну (частица)",
+    "example": "Det var altså du som ringte?",
+    "exampleTranslation": "Так это ты звонил?",
+    "note": null
+  },
+  {
+    "id": "w-trives",
+    "category": "word",
+    "norwegian": "å trives",
+    "russian": "хорошо себя чувствовать (где-то), нравиться",
+    "example": "Jeg trives godt i Norge.",
+    "exampleTranslation": "Мне хорошо в Норвегии.",
+    "note": "trives – trivdes – har trivdes"
+  },
+  {
+    "id": "w-palegg",
+    "category": "word",
+    "norwegian": "et pålegg",
+    "russian": "то, что кладут на хлеб (сыр, колбаса и т. п.)",
+    "example": "Hva slags pålegg vil du ha?",
+    "exampleTranslation": "Что тебе положить на хлеб?",
+    "note": "et pålegg – pålegget"
+  },
+  {
+    "id": "w-hytte",
+    "category": "word",
+    "norwegian": "ei/en hytte",
+    "russian": "домик в горах или у моря; дача",
+    "example": "Vi skal på hytta i påsken.",
+    "exampleTranslation": "На Пасху мы едем на дачу.",
+    "note": "hytta/hytten – hytter. Говорят «på hytta», а не «i hytta»."
+  },
+  {
+    "id": "w-pinlig",
+    "category": "word",
+    "norwegian": "pinlig",
+    "russian": "неловкий, стыдный",
+    "example": "Det var så pinlig da jeg glemte navnet hennes.",
+    "exampleTranslation": "Было так неловко, когда я забыл её имя.",
+    "note": null
+  },
+  {
+    "id": "w-utsette",
+    "category": "word",
+    "norwegian": "å utsette",
+    "russian": "откладывать, переносить",
+    "example": "Ikke utsett det til i morgen.",
+    "exampleTranslation": "Не откладывай это на завтра.",
+    "note": "utsetter – utsatte – har utsatt"
+  },
+  {
+    "id": "w-forsinket",
+    "category": "word",
+    "norwegian": "forsinket",
+    "russian": "задержанный, опаздывающий",
+    "example": "Toget er forsinket igjen.",
+    "exampleTranslation": "Поезд опять опаздывает.",
+    "note": null
+  },
+  {
+    "id": "w-utfordring",
+    "category": "word",
+    "norwegian": "en utfordring",
+    "russian": "вызов; сложная задача",
+    "example": "Å lære norsk er en spennende utfordring.",
+    "exampleTranslation": "Учить норвежский – увлекательная задача.",
+    "note": "en utfordring – utfordringen – utfordringer"
+  },
+  {
+    "id": "pr-borte-bra",
+    "category": "proverb",
+    "norwegian": "Borte bra, men hjemme best.",
+    "russian": "В гостях хорошо, а дома лучше.",
+    "example": "Etter tre uker i Italia tenkte jeg: borte bra, men hjemme best.",
+    "exampleTranslation": "После трёх недель в Италии я подумал: в гостях хорошо, а дома лучше.",
+    "note": null
+  },
+  {
+    "id": "pr-darlig-vaer",
+    "category": "proverb",
+    "norwegian": "Det finnes ikke dårlig vær, bare dårlige klær.",
+    "russian": "Не бывает плохой погоды, бывает плохая одежда.",
+    "example": "Ta på deg regnjakka – det finnes ikke dårlig vær, bare dårlige klær!",
+    "exampleTranslation": "Надень дождевик – не бывает плохой погоды, бывает плохая одежда!",
+    "note": null
+  },
+  {
+    "id": "pr-venter-pa-noe-godt",
+    "category": "proverb",
+    "norwegian": "Den som venter på noe godt, venter ikke forgjeves.",
+    "russian": "Кто ждёт хорошего, ждёт не напрасно.",
+    "example": "Pakken kom endelig. Den som venter på noe godt, venter ikke forgjeves!",
+    "exampleTranslation": "Посылка наконец пришла. Кто ждёт хорошего, ждёт не напрасно!",
+    "note": null
+  },
+  {
+    "id": "pr-ovelse-gjor-mester",
+    "category": "proverb",
+    "norwegian": "Øvelse gjør mester.",
+    "russian": "Терпение и труд всё перетрут; навык приходит с практикой.",
+    "example": "Fortsett å snakke norsk hver dag – øvelse gjør mester!",
+    "exampleTranslation": "Продолжай говорить по-норвежски каждый день – навык приходит с практикой!",
+    "note": "Букв.: «Упражнение делает мастера»."
+  },
+  {
+    "id": "pr-roser-uten-torner",
+    "category": "proverb",
+    "norwegian": "Ingen roser uten torner.",
+    "russian": "Нет розы без шипов.",
+    "example": "Jobben er spennende, men stressende. Ingen roser uten torner.",
+    "exampleTranslation": "Работа интересная, но нервная. Нет розы без шипов.",
+    "note": null
+  },
+  {
+    "id": "pr-skue-hunden",
+    "category": "proverb",
+    "norwegian": "Man skal ikke skue hunden på hårene.",
+    "russian": "Не суди по внешности.",
+    "example": "Restauranten så kjedelig ut, men maten var fantastisk. Man skal ikke skue hunden på hårene.",
+    "exampleTranslation": "Ресторан выглядел скучно, но еда была потрясающей. Не суди по внешности.",
+    "note": "Букв.: «Не суди о собаке по шерсти»."
+  },
+  {
+    "id": "pr-bedre-sent",
+    "category": "proverb",
+    "norwegian": "Bedre sent enn aldri.",
+    "russian": "Лучше поздно, чем никогда.",
+    "example": "Du kom endelig! Bedre sent enn aldri.",
+    "exampleTranslation": "Наконец-то ты пришёл! Лучше поздно, чем никогда.",
+    "note": null
+  },
+  {
+    "id": "pr-mange-bekker-sma",
+    "category": "proverb",
+    "norwegian": "Mange bekker små gjør en stor å.",
+    "russian": "С миру по нитке; капля за каплей – и море.",
+    "example": "Spar femti kroner hver dag – mange bekker små gjør en stor å.",
+    "exampleTranslation": "Откладывай по пятьдесят крон каждый день – капля за каплей набирается много.",
+    "note": "Букв.: «Много маленьких ручьёв образуют большую реку»."
+  }
+]

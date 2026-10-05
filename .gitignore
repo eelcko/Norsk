@@ -1,0 +1,13 @@
+.DS_Store
+
+# Генерируется XcodeGen из project.yml
+*.xcodeproj
+NorskKort/Info.plist
+NorskKort/NorskKort.entitlements
+NorskKortWidget/Info.plist
+NorskKortWidget/NorskKortWidget.entitlements
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/

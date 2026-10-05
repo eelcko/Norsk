@@ -1,0 +1,62 @@
+# Xcode-проект генерируется командой `xcodegen generate` (см. README.md).
+name: NorskKort
+
+options:
+  bundleIdPrefix: io.github.eelcko
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    # Укажите свой Team ID (Xcode → Settings → Accounts), иначе виджет не появится в галерее.
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  NorskKort:
+    type: application
+    platform: macOS
+    sources:
+      - NorskKort
+      - Shared
+    dependencies:
+      - target: NorskKortWidget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.eelcko.NorskKort
+    info:
+      path: NorskKort/Info.plist
+      properties:
+        CFBundleDisplayName: Norsk Kort
+        LSApplicationCategoryType: public.app-category.education
+        CFBundleURLTypes:
+          - CFBundleURLName: io.github.eelcko.NorskKort
+            CFBundleURLSchemes: [norskkort]
+    entitlements:
+      path: NorskKort/NorskKort.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+
+  NorskKortWidget:
+    type: app-extension
+    platform: macOS
+    sources:
+      - NorskKortWidget
+      - Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.eelcko.NorskKort.Widget
+    info:
+      path: NorskKortWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Norsk Kort
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: NorskKortWidget/NorskKortWidget.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
